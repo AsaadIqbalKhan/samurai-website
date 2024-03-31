@@ -1,0 +1,79 @@
+
+body{
+    font-family: "Shojumaru", system-ui;
+    text-align: center;
+    width: 1512px;
+    height: 3300px;
+    color:white;
+}
+
+/* navbar */
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    color: white;
+}
+.nav-list{
+    display: flex;
+    font-size: 20px;
+    justify-content: space-between;
+    list-style-type: none;
+    color: white;
+}
+.header{
+    background-image: url("./photos/Rectangle\ 18.png");
+    height: 588px;
+}
+
+
+
+/* introduction */
+.intro{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px;
+    background-color: #191818;
+
+}
+.intro>h2{
+    background-color: #ED0137;
+
+}
+.intro-left{
+    text-align: left;
+}
+
+
+/* roadmap */
+
+.roadmap{
+    width: 1512px;
+    background-color: #191818;
+
+
+}
+
+/* FAQ */
+.faq{
+    display: flex;
+    background-color: #191818;
+    ;
+}
+.faq-child {
+    height: 550px;
+}
+
+/* footer */
+
+.foot{
+    background-color: #191818;
+}
+.uls{
+    display: flex;
+    width: 618px;
+    margin: auto;
+    font-size: 20px;
+    justify-content: space-between;
+    list-style-type: none
+}
